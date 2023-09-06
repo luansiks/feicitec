@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 :root{
-    --color1: #30487c;
+    --color1: #3d5281;
     --color2: #21263a;
-    --color3: #313d67;
+    --color3: #3b4c89;
     --color4: #101211;
     --color5: #101211;
 }
@@ -74,6 +74,7 @@ div#fundo{
     background: black url(../imagens/planeta-terra.webp) center center no-repeat fixed;
     background-size: cover;
     margin: auto;
+    margin-bottom: 10px;
     width: 100%;
     height: 500px;
     padding: 10px 0px;
@@ -84,4 +85,19 @@ p.textofundo{
     background-color: #0000007d;
     margin: 0px 10px;
     padding: 5px;
+}
+img#marte{
+    width: 70%;
+    min-width: 450px;
+    margin-bottom: 10px;
+}
+img#jup{
+    width: 60%;
+    min-width: 400px;
+    border-radius: 50px;
+    padding: 20px;
+}
+img#aneis{
+    width: 80%;
+    min-width: 400px;
 }
