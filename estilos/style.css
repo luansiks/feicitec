@@ -71,7 +71,7 @@ img#venus{
     min-width: 300px;
 }
 div#fundo{
-    background: black url(/imagens/planeta-terra.webp) center center no-repeat fixed;
+    background: black url(../imagens/planeta-terra.webp) center center no-repeat fixed;
     background-size: cover;
     margin: auto;
     width: 100%;
