@@ -4,7 +4,7 @@
     --color1: #3d5281;
     --color2: #21263a;
     --color3: #3b4c89;
-    --color4: #101211;
+    --color4: #7697de;
     --color5: #101211;
 }
 
@@ -16,7 +16,7 @@
 body{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--color2);
+    background-image: linear-gradient(to right,var(--color3) ,var(--color4));
 }
 header{
     background-color: var(--color1);
@@ -49,26 +49,25 @@ h2{
 }
 main > p{
     padding-bottom: 10px;
+    padding-top: 5px;
 }
 img{
     display: block;
     margin: auto;
-    border-radius: 15px;   
+    border-radius: 15px;
+    min-width: 400px;  
 }
 img#solar{
     width: 70%;
-    min-width: 400px;
     padding-bottom: 10px;
 }
 img#mercur{
     border-radius: 50px;
     width: 70%;
-    min-width: 400px;
 }
 img#venus{
     border-radius: 50px;
     width: 40%;
-    min-width: 300px;
 }
 div#fundo{
     background: black url(../imagens/planeta-terra.webp) center center no-repeat fixed;
@@ -88,16 +87,40 @@ p.textofundo{
 }
 img#marte{
     width: 70%;
-    min-width: 450px;
     margin-bottom: 10px;
 }
 img#jup{
     width: 60%;
-    min-width: 400px;
     border-radius: 50px;
     padding: 20px;
 }
 img#aneis{
     width: 80%;
-    min-width: 400px;
+}
+img#urano{
+    width: 80%;
+}
+img#netun{
+    width: 70%;
+}
+th,td{
+    border: solid 2px black;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    background-color: var(--color4);
+    color: white;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 500px;
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: var(--color4);
+    border: solid black 2px;
+    border-collapse: collapse;
 }
