@@ -93,7 +93,7 @@ img#jup{
     width: 60%;
     border-radius: 50px;
     padding: 20px;
-    width: 300px;
+    min-width: 300px;
 }
 img#aneis{
     width: 80%;
