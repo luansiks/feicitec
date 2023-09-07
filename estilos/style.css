@@ -93,6 +93,7 @@ img#jup{
     width: 60%;
     border-radius: 50px;
     padding: 20px;
+    width: 300px;
 }
 img#aneis{
     width: 80%;
@@ -115,7 +116,8 @@ th{
 table{
     margin: auto;
     border-collapse: collapse;
-    width: 500px;
+    width: 60%;
+    width: 350px;
 }
 thead > tr > th{
     position: sticky;
