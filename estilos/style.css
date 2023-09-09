@@ -117,7 +117,6 @@ th{
 table{
     margin: auto;
     border-collapse: collapse;
-    width: 70%;
 }
 thead > tr > th{
     position: sticky;
