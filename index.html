@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O Sistema Solar</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/celular.css" media="screen and (min-width: 0px) and (max-width: 768px)">
-    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 769px) and (max-width: 992px)">
-    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 992px) and (max-width: 1200px)">
     <link rel="shortcut icon" href="imagens/planeta-logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <h1>O sistema solar</h1>
         <p>descubra mais sobre o sistema em que vivemos!</p>
-        <p></p>
+        <p id="curiosidade" onclick=" acontece()">curiosidade</p>
     </header>
     <main>
         <h2>&#x1F30C; sobre o sistema solar</h2>
@@ -147,9 +144,9 @@
             uma superfície sólida. Netuno foi descoberto em 1846 e, desde então, foi muito 
             estudado por astrônomos de todo o mundo. Apesar disso, é ainda um planeta pouco 
             explorado.</p>
-        <h2>escala de tamanho de planetas</h2>
-        <p>No nosso sistema solar existem planetas com tamanhos variados sendo eles gigantes gasosos e rochosos, veja os planetas 
-            do maior para o menor.</p>
+        <h2>escala de tamanho dos planetas</h2>
+        <p>No nosso sistema solar existem planetas com tamanhos variados sendo eles gigantes 
+             gasosos e rochosos, veja os planetas do maior para o menor.</p>
         <table>
             <thead>
                 <tr><th scope="col">colocação</th><th scope="col">planeta</th><th scope="col">diametro</th></tr>
@@ -165,9 +162,19 @@
                 <tr><td>8</td><td>mercurio</td><td>4.879,4km</td></tr>
             </tbody>
         </table>
+        <p>Esses dados muitas fezes podem vir de sateletes ou de telescópios dependendo do que,
+             uma das principais agências espaciais é a <a href="https://www.nasa.gov/" class="link" target="_blank" rea l="external">NASA</a> 
+             que tem a função de desenvolver e pesquisar novas tecnologias, e responsevel pela 
+             exploração do universo, mas também tem outras agencias espaciais como: 
+             ESA,ROSCOSMOS, CNSA, lsro, Jaxa, spaceX e entre outras.</p>
+        <p>Veja também a comparação dos planetas</p>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/i93Z7zljQ7I?si=J-4XJS0aM_7ZHzSE" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </main>
     <footer>
-
-    </footer>   
+        <p>esse site foi ciado por <a class="link" target="_blank" real="external" href="https://github.com/luansiks">luansiks</a> aluno do 6° ano luan santos de almeida</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
